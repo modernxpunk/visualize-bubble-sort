@@ -1,0 +1,21 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.wrapper {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	height: 100vh;
+}
+
+.board {
+	display: flex;
+	align-items: flex-end;
+	flex-direction: row;
+}
+
+.block {
+	background-color: black;
+}
